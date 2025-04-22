@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <!-- House Icon (similar to Zillow style) -->
+  <g transform="translate(30, 28) scale(0.9)">
+    <path d="M25,0 L50,20 L50,50 L0,50 L0,20 Z" fill="#006AFF" />
+    <rect x="20" y="30" width="10" height="20" fill="white" />
+  </g>
+  
+  <!-- Text "NadlanAI" -->
+  <text x="80" y="55" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#1A1F71">
+    Nadlan<tspan fill="#006AFF">AI</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="82" y="75" font-family="Arial, sans-serif" font-size="14" fill="#666666">חיפוש נדל"ן חכם</text>
+</svg>
