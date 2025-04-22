@@ -49,10 +49,10 @@ export default function AppHeader() {
 
       <div className="relative h-full flex flex-col items-center justify-center text-white px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-          נדלן AI - פורטל הנדל"ן החכם של ישראל
+          נדלן AI - פורטל הנדל&quot;ן החכם של ישראל
         </h1>
         <p className="text-xl md:text-2xl text-center max-w-2xl mb-8">
-          מצא את הנכס המושלם שלך מכל אתרי הנדל"ן בישראל במקום אחד
+          מצא את הנכס המושלם שלך מכל אתרי הנדל&quot;ן בישראל במקום אחד
         </p>
         
         {/* Search Bar */}

@@ -1,5 +1,4 @@
 import { Suspense } from 'react'
-import PropertySearch from '@/components/PropertySearch'
 import PropertyList from '@/components/PropertyList'
 import Loading from '@/components/Loading'
 import AppHeader from '@/components/AppHeader'
