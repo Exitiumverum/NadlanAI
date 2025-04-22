@@ -4,7 +4,7 @@ import { useState } from 'react'
 import PropertyCard from './PropertyCard'
 
 export default function PropertyList() {
-  const [properties, setProperties] = useState([
+  const [properties] = useState([
     {
       id: 1,
       title: 'דירה מרווחת בתל אביב',
