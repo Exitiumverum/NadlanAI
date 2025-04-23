@@ -333,12 +333,21 @@ class Yad2DirectService:
                 
                 # Check for next page button
                 try:
-                    next_page_button = await self.page.query_selector('button[aria-label="עמוד הבא"]')
+                    next_page_button = await self.page.query_selector('a.pagination-arrow_button__ayr9j[aria-label="עמוד הבא"]')
                     if next_page_button and await next_page_button.is_visible():
                         print(f"\nFound next page button, moving to page {current_page + 1}")
-                        await next_page_button.click()
-                        await self.human_like_delay(2, 3)  # Wait for next page to load
-                        current_page += 1
+                        # Get the href attribute
+                        href = await next_page_button.get_attribute('href')
+                        if href:
+                            # Navigate to the next page URL
+                            next_page_url = f"https://www.yad2.co.il{href}"
+                            print(f"Navigating to next page: {next_page_url}")
+                            await self.page.goto(next_page_url, wait_until="domcontentloaded")
+                            await self.human_like_delay(2, 3)  # Wait for next page to load
+                            current_page += 1
+                        else:
+                            print("\nNo href found in next page button")
+                            break
                     else:
                         print("\nNo more pages to scrape")
                         break
