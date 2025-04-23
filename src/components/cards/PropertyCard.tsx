@@ -3,14 +3,15 @@
 import Image from 'next/image'
 
 interface Property {
-  id: number
+  id: string
   title: string
   price: string
   location: string
-  rooms: number
-  size: number
+  rooms: string
+  size: string
   image: string
   description: string
+  link: string
 }
 
 interface PropertyCardProps {
@@ -37,8 +38,8 @@ export default function PropertyCard({ property }: PropertyCardProps) {
         <h3 className="text-xl font-semibold mb-2">{property.title}</h3>
         <p className="text-gray-600 mb-2">{property.location}</p>
         <div className="flex justify-between items-center mb-2">
-          <span className="text-gray-600">{property.rooms} חדרים</span>
-          <span className="text-gray-600">{property.size} מ&quot;ר</span>
+          <span className="text-gray-600">{property.rooms}</span>
+          <span className="text-gray-600">{property.size}</span>
         </div>
         <p className="text-lg font-bold">{property.price}</p>
         <p className="text-sm text-gray-500 mt-2">{property.description}</p>
