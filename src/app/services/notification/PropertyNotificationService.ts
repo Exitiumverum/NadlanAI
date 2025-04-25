@@ -1,4 +1,4 @@
-import { Property, PropertyNotification } from '../../types/property';
+import { Property, PropertyNotification } from '../../types/property.js';
 
 export class PropertyNotificationService {
   private readonly PROFITABILITY_THRESHOLD = -0.05; // 5% below market average

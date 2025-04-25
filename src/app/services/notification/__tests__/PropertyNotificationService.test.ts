@@ -70,5 +70,31 @@ describe('PropertyNotificationService', () => {
       expect(result.isProfitable).toBe(false);
       expect(result.priceDifferencePercent).toBeGreaterThan(0);
     });
+
+    it('should analyze and notify for Kiryat Bialik property', () => {
+      // Create property data based on the provided information
+      const property: Property = {
+        id: 'test-1',
+        city: 'Kiryat Bialik',
+        neighborhood: 'Keren HaYesod',
+        size: 60,
+        rooms: 3,
+        condition: 'Renovated',
+        requestedPrice: 1080000,
+        pricePerMeterActual: 18000, // 1,080,000 / 60
+        pricePerMeterAverage: 20000, // Assuming market average
+        url: 'test-url',
+        timestamp: new Date()
+      };
+
+      const notification = service.analyzeAndNotify(property);
+
+      // Verify the notification
+      expect(notification).toBeDefined();
+      expect(notification.property).toEqual(property);
+      expect(notification.pricePerSqm).toBe(18000);
+      expect(notification.priceDifferencePercent).toBeLessThan(0); // Should be below market average
+      expect(notification.isProfitable).toBe(true);
+    });
   });
 }); 
