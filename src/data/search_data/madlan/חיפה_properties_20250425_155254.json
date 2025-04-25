@@ -1,0 +1,511 @@
+[
+  {
+    "price": 1090000,
+    "rooms": 3.0,
+    "size": 71,
+    "floor": 1,
+    "property_type": "דירה",
+    "street": "בן יהודה 28",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:47.781993"
+  },
+  {
+    "price": 2950000,
+    "rooms": 3.0,
+    "size": 250,
+    "floor": null,
+    "property_type": "בית פרטי",
+    "street": "אל פראבי 6",
+    "neighborhood": "ואדי ניסנאס",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:52.876228"
+  },
+  {
+    "property_type": "שלמה המלך 10",
+    "street": "נווה דוד",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:52.898054"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 24,
+    "property_type": "המבואות הדרומיים",
+    "address": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:52.930017"
+  },
+  {
+    "price": 2600000,
+    "rooms": 6.0,
+    "size": 145,
+    "floor": 5,
+    "property_type": "דירה",
+    "street": "הגליל",
+    "neighborhood": "נוה שאנן",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:52.966139"
+  },
+  {
+    "price": 1850000,
+    "rooms": 3.0,
+    "size": 86,
+    "floor": 2,
+    "property_type": "דירת גן",
+    "street": "חביבה רייך",
+    "neighborhood": "רמות רמז",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.001413"
+  },
+  {
+    "price": 1270000,
+    "rooms": 3.0,
+    "size": 70,
+    "floor": 1,
+    "property_type": "דירה",
+    "street": "סילבר אבא הלל 111",
+    "neighborhood": "יזרעאליה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.037621"
+  },
+  {
+    "price": 2390000,
+    "rooms": 3.0,
+    "size": 83,
+    "floor": null,
+    "property_type": "דירת גן",
+    "street": "ברל כצנלסון 70",
+    "neighborhood": "נוה שאנן",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.074399"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 6,
+    "property_type": "שדרות מוריה 72",
+    "street": "שמבור",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.102755"
+  },
+  {
+    "rooms": 65.0,
+    "floor": 7,
+    "property_type": "ווטסון ליונל 11",
+    "street": "רמת בגין",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.129868"
+  },
+  {
+    "price": 1210000,
+    "rooms": 45.0,
+    "size": 100,
+    "floor": 15,
+    "property_type": "דירה",
+    "address": "דרך יד לבנים",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.162825"
+  },
+  {
+    "price": 2399000,
+    "rooms": 5.0,
+    "size": 113,
+    "floor": 4,
+    "property_type": "דירה",
+    "street": "האסיף",
+    "neighborhood": "אחוזה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.196401"
+  },
+  {
+    "price": 1700000,
+    "rooms": 4.0,
+    "size": 100,
+    "floor": 5,
+    "property_type": "דירה",
+    "street": "סלומון יעקב 30",
+    "neighborhood": "נוה שאנן",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.230358"
+  },
+  {
+    "price": 2450000,
+    "rooms": 5.0,
+    "size": 137,
+    "floor": 1,
+    "property_type": "דירה",
+    "street": "חיים הזז 3",
+    "neighborhood": "סביוני דניה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.266031"
+  },
+  {
+    "rooms": 53.0,
+    "floor": 6,
+    "property_type": "יותם 42",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.291090"
+  },
+  {
+    "rooms": 5.0,
+    "floor": 7,
+    "property_type": "יהודה עמיחי 4",
+    "street": "רמת עופר",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.317184"
+  },
+  {
+    "price": 850000,
+    "rooms": 3.0,
+    "size": 60,
+    "floor": 3,
+    "property_type": "דירה",
+    "address": "ואדי ניסנאס",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.350170"
+  },
+  {
+    "price": 2680000,
+    "rooms": 65.0,
+    "size": 160,
+    "floor": 2,
+    "property_type": "דופלקס",
+    "street": "גורדון",
+    "neighborhood": "רמות רמז",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.381249"
+  },
+  {
+    "price": 1150000,
+    "rooms": 25.0,
+    "size": 69,
+    "floor": 4,
+    "property_type": "דירה",
+    "street": "מסדה 35",
+    "neighborhood": "הדר עליון",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.414462"
+  },
+  {
+    "price": 1480000,
+    "rooms": 35.0,
+    "size": 84,
+    "floor": 1,
+    "property_type": "דירה",
+    "address": "יעקב קליבנוב 37",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.445358"
+  },
+  {
+    "rooms": 5.0,
+    "floor": 6,
+    "property_type": "זמנהוף 33",
+    "street": "גבעת דאונס",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.468772"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "כגן רחל 4",
+    "street": "כרמליה",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.491676"
+  },
+  {
+    "price": 2550000,
+    "rooms": 55.0,
+    "size": 195,
+    "floor": 4,
+    "property_type": "דירה",
+    "street": "קרן היסוד 13",
+    "neighborhood": "רוממה הישנה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.524284"
+  },
+  {
+    "price": 1050000,
+    "rooms": 25.0,
+    "size": 75,
+    "floor": 2,
+    "property_type": "דירה",
+    "street": "מסדה 35",
+    "neighborhood": "הדר עליון",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.554652"
+  },
+  {
+    "price": 1330000,
+    "rooms": 4.0,
+    "size": 70,
+    "floor": 4,
+    "property_type": "דירה",
+    "street": "דובנוב 16",
+    "neighborhood": "רמות רמז",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.585991"
+  },
+  {
+    "price": 983000,
+    "rooms": 3.0,
+    "size": 70,
+    "floor": 2,
+    "property_type": "דירה",
+    "street": "גדעון 12",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.617333"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "ויתקין יוסף 16",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.641510"
+  },
+  {
+    "rooms": 4.0,
+    "floor": 6,
+    "property_type": "סמולנסקין 6",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.665808"
+  },
+  {
+    "price": 995000,
+    "rooms": 3.0,
+    "size": 70,
+    "floor": 2,
+    "property_type": "דירה",
+    "address": "יזרעאליה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.695965"
+  },
+  {
+    "price": 870000,
+    "rooms": 2.0,
+    "size": 70,
+    "floor": null,
+    "property_type": "דירת גן",
+    "street": "יחיאל",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.726180"
+  },
+  {
+    "price": 1670000,
+    "rooms": 35.0,
+    "size": 98,
+    "floor": 5,
+    "property_type": "דירה",
+    "street": "הזז חיים 3",
+    "neighborhood": "סביוני דניה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.756988"
+  },
+  {
+    "price": 1150000,
+    "rooms": 5.0,
+    "size": 70,
+    "floor": null,
+    "property_type": "דירה",
+    "street": "בן יהודה 6",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.787913"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "דישראלי 5",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.813165"
+  },
+  {
+    "rooms": 63.0,
+    "floor": 16,
+    "property_type": "אלמוג 18",
+    "street": "רמת הנשיא",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.839341"
+  },
+  {
+    "price": 970000,
+    "rooms": 25.0,
+    "size": 65,
+    "floor": 2,
+    "property_type": "דירה",
+    "street": "בר גיורא",
+    "neighborhood": "הדר עליון",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.875008"
+  },
+  {
+    "price": 1050000,
+    "rooms": 5.0,
+    "size": 140,
+    "floor": 2,
+    "property_type": "דירה",
+    "street": "החלוץ",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.913398"
+  },
+  {
+    "price": 2450000,
+    "rooms": 3.0,
+    "size": 77,
+    "floor": null,
+    "property_type": "דירת גן",
+    "street": "ווטסון 11",
+    "neighborhood": "רמת בגין",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.954180"
+  },
+  {
+    "price": 1480000,
+    "rooms": 3.0,
+    "size": 66,
+    "floor": null,
+    "property_type": "דירה",
+    "street": "שפירא 5",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:53.990685"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 6,
+    "property_type": "מרגלית 7",
+    "street": "שמבור",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.016250"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "יפה נוף 126",
+    "street": "מרכז הכרמל",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.043574"
+  },
+  {
+    "price": 1050000,
+    "rooms": 3.0,
+    "size": 140,
+    "floor": null,
+    "property_type": "בית פרטי",
+    "address": "מאי",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.073650"
+  },
+  {
+    "price": 1080000,
+    "rooms": 35.0,
+    "size": 82,
+    "floor": null,
+    "property_type": "דירה",
+    "street": "נורדאו",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.108072"
+  },
+  {
+    "price": 1350000,
+    "rooms": 45.0,
+    "size": 190,
+    "floor": 1,
+    "property_type": "דירת גן",
+    "street": "תל חי 24",
+    "neighborhood": "הדר הכרמל",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.140084"
+  },
+  {
+    "price": 1290000,
+    "rooms": 3.0,
+    "size": 65,
+    "floor": null,
+    "property_type": "דירה",
+    "street": "הס 17",
+    "neighborhood": "הדר עליון",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.173263"
+  },
+  {
+    "rooms": 4.0,
+    "floor": 6,
+    "property_type": "דרך הים 100",
+    "street": "כרמל מערבי",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.200335"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 6,
+    "property_type": "פינסקר 16",
+    "street": "נוה שאנן",
+    "neighborhood": "חיפה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.227518"
+  },
+  {
+    "price": 4500000,
+    "rooms": 7.0,
+    "size": 450,
+    "floor": null,
+    "property_type": "בית פרטי",
+    "street": "גוש עציון 18",
+    "neighborhood": "חליסה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.261678"
+  },
+  {
+    "price": 3090000,
+    "rooms": 4.0,
+    "size": 100,
+    "floor": 2,
+    "property_type": "דירה",
+    "address": "גולדה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.296646"
+  },
+  {
+    "price": 1620000,
+    "rooms": 3.0,
+    "size": 75,
+    "floor": 2,
+    "property_type": "דירה",
+    "street": "צופית 16",
+    "neighborhood": "רמת חן",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.331267"
+  },
+  {
+    "price": 3600000,
+    "rooms": 5.0,
+    "size": 270,
+    "floor": null,
+    "property_type": "פנטהאוז",
+    "street": "צבעוני 11",
+    "neighborhood": "ורדיה",
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T15:52:54.363200"
+  }
+]

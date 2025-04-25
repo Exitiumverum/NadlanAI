@@ -16,9 +16,10 @@ class Yad2DirectService:
         self.page: Page = None
         self.properties: List[Dict[str, Any]] = []
         # Create data directory structure
-        self.data_dir = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'data')
+        self.data_dir = os.path.join(os.path.dirname(__file__), '..', '..', '..', '..', 'data')
         self.search_data_dir = os.path.join(self.data_dir, 'search_data')
-        os.makedirs(self.search_data_dir, exist_ok=True)
+        self.yad2_data_dir = os.path.join(self.search_data_dir, 'yad2')
+        os.makedirs(self.yad2_data_dir, exist_ok=True)
 
     async def setup_browser(self):
         """Set up browser with human-like settings"""
@@ -116,7 +117,7 @@ class Yad2DirectService:
             
             print("Navigating to Yad2...")
             # Go directly to the Tzur Hadassah properties page
-            await self.page.goto("https://www.yad2.co.il/realestate/forsale?topArea=25&area=68&city=7600", wait_until="domcontentloaded")
+            await self.page.goto("https://www.yad2.co.il/realestate/forsale?topArea=25&area=5&city=4000", wait_until="domcontentloaded")
             await self.human_like_delay(2, 3)  # Wait for initial load
             
             # Wait for the feed list to be visible
@@ -262,7 +263,10 @@ class Yad2DirectService:
                         for selector in price_selectors:
                             price_elem = listing.select_one(selector)
                             if price_elem:
-                                price = price_elem.text.strip()
+                                price_text = price_elem.text.strip()
+                                # Extract only the numeric value from the price
+                                # Remove currency symbol (₪) and any commas
+                                price = ''.join(filter(str.isdigit, price_text))
                                 print(f"DEBUG: Found price with selector {selector}: {price}")
                                 break
                         
@@ -272,6 +276,12 @@ class Yad2DirectService:
                             location_elem = listing.select_one(selector)
                             if location_elem:
                                 location = location_elem.text.strip()
+                                # Extract the city name from the location string
+                                # The city is usually the last part after the last comma
+                                location_parts = location.split(',')
+                                if location_parts:
+                                    # Get the last part and strip whitespace
+                                    location = location_parts[-1].strip()
                                 print(f"DEBUG: Found location with selector {selector}: {location}")
                                 break
                         
@@ -285,8 +295,10 @@ class Yad2DirectService:
                         if rooms_size != "N/A":
                             parts = rooms_size.split('•')
                             if len(parts) >= 3:
-                                rooms = parts[0].strip()
-                                size = parts[2].strip()
+                                # Extract just the number from rooms
+                                rooms = parts[0].strip().split()[0]
+                                # Extract just the number from size
+                                size = parts[2].strip().split()[0]
                                 print(f"DEBUG: Parsed rooms: {rooms}, size: {size}")
                         
                         # Find image
@@ -356,10 +368,12 @@ class Yad2DirectService:
                     break
             
             if all_properties:
+                # Get the city name from the first property
+                city_name = all_properties[0]['location'] if all_properties else 'unknown_city'
                 # Save all properties to JSON file
                 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                filename = f'tzur_hadassah_properties_{timestamp}.json'
-                filepath = os.path.join(self.search_data_dir, filename)
+                filename = f'{city_name}_properties_{timestamp}.json'
+                filepath = os.path.join(self.yad2_data_dir, filename)
                 
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(all_properties, f, ensure_ascii=False, indent=2)
