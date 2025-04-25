@@ -116,7 +116,7 @@ class Yad2DirectService:
             
             print("Navigating to Yad2...")
             # Go directly to the Tzur Hadassah properties page
-            await self.page.goto("https://www.yad2.co.il/realestate/forsale?topArea=100&area=86&city=1113", wait_until="domcontentloaded")
+            await self.page.goto("https://www.yad2.co.il/realestate/forsale?topArea=25&area=68&city=7600", wait_until="domcontentloaded")
             await self.human_like_delay(2, 3)  # Wait for initial load
             
             # Wait for the feed list to be visible

@@ -1,16 +1,28 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import tzurHadassahData from '@/data/search_data/tzur_hadassah_properties_20250423_194654.json'
+// import haifaData from '@/data/search_data/haifa_properties.json'
+import haifaData from '@/app/data/search_data/haifa_properties.json'
 import PropertyList from '@/components/lists/PropertyList'
 import Pagination from '@/components/ui/Pagination'
+
+interface Property {
+  title: string
+  price: string
+  location: string
+  rooms: string
+  size: string
+  image: string
+  broker: string
+  link: string
+}
 
 export default function SearchExplore({ url }: { url: string }) {
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 9
 
   // Transform the data to match PropertyList's expected format
-  const properties = tzurHadassahData.map((property, index) => ({
+  const properties = haifaData.map((property: Property, index: number) => ({
     id: index.toString(),
     title: property.title,
     price: property.price,
@@ -34,13 +46,15 @@ export default function SearchExplore({ url }: { url: string }) {
   }, [currentPage])
 
   return (
-    <div className="w-full">
-      <PropertyList properties={currentProperties} />
-      <Pagination
-        currentPage={currentPage}
-        totalPages={totalPages}
-        onPageChange={setCurrentPage}
-      />
+    <div className="w-full bg-gray-100 min-h-screen py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PropertyList properties={currentProperties} />
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={setCurrentPage}
+        />
+      </div>
     </div>
   )
 }

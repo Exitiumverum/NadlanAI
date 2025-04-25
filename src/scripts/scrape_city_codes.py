@@ -38,6 +38,10 @@ def scrape_city_codes():
                 search_input.click()
                 time.sleep(1)  # Wait for dropdown to open
                 
+                # Type "חיפה" in the search input
+                search_input.fill("חיפה")
+                time.sleep(1)  # Wait for dropdown to update
+                
             except Exception as e:
                 print(f"Error finding search input: {str(e)}")
                 # Take screenshot for debugging

@@ -23,7 +23,9 @@ export default function PropertyList({ properties }: PropertyListProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {properties.map((property) => (
-        <PropertyCard key={property.id} property={property} />
+        <div key={property.id} className="transform transition-all duration-300 hover:scale-105">
+          <PropertyCard property={property} />
+        </div>
       ))}
     </div>
   )

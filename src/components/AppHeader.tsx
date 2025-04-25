@@ -10,7 +10,7 @@ export default function AppHeader() {
     <header className="relative h-[500px] w-full">
       <div className="absolute inset-0">
         <Image
-          src="/images/cover_image_2.jpg"
+          src="/images/cover_image_4.jpg"
           alt="Real Estate Background"
           fill
           priority
@@ -68,12 +68,17 @@ export default function AppHeader() {
             <button
               className="p-2 text-gray-800 hover:text-gray-900 transition-colors"
               onClick={() => {
+
                 // TODO: Implement search functionality
                 console.log('Searching for:', searchQuery)
               }}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                <path d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              <svg 
+              // src="../../../public/svgIcons/search-svg.svg"
+              xmlns="../../../public/svgIcons/search-svg.svg"
+               viewBox="0 0 24 24" 
+               fill="black"
+                className="w-5 h-5">
               </svg>
             </button>
           </div>
