@@ -1,0 +1,159 @@
+[
+  {
+    "rooms": 54.0,
+    "floor": 24,
+    "property_type": "המבואות הדרומיים",
+    "address": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.617979"
+  },
+  {
+    "property_type": "שלמה המלך 10",
+    "street": "נווה דוד",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.637110"
+  },
+  {
+    "rooms": 5.0,
+    "floor": 7,
+    "property_type": "יהודה עמיחי 4",
+    "street": "רמת עופר",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.674589"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "ויתקין יוסף 16",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.696903"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "דישראלי 5",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.728588"
+  },
+  {
+    "rooms": 63.0,
+    "floor": 16,
+    "property_type": "אלמוג 18",
+    "street": "רמת הנשיא",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.750964"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 6,
+    "property_type": "שדרות מוריה 72",
+    "street": "שמבור",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.787854"
+  },
+  {
+    "rooms": 65.0,
+    "floor": 7,
+    "property_type": "ווטסון ליונל 11",
+    "street": "רמת בגין",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.812807"
+  },
+  {
+    "rooms": 5.0,
+    "floor": 6,
+    "property_type": "זמנהוף 33",
+    "street": "גבעת דאונס",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.847985"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "כגן רחל 4",
+    "street": "כרמליה",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.871232"
+  },
+  {
+    "rooms": 4.0,
+    "floor": 6,
+    "property_type": "סמולנסקין 6",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.904625"
+  },
+  {
+    "rooms": 53.0,
+    "floor": 6,
+    "property_type": "יותם 42",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.925918"
+  },
+  {
+    "rooms": 43.0,
+    "floor": 7,
+    "property_type": "דרך אריאל שרון 17",
+    "street": "בת גלים",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.958807"
+  },
+  {
+    "rooms": 63.0,
+    "floor": 7,
+    "property_type": "יותם 35",
+    "street": "שמבור",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:40.980236"
+  },
+  {
+    "rooms": 53.0,
+    "floor": 8,
+    "property_type": "הרופא 45",
+    "street": "אחוזה",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:41.016264"
+  },
+  {
+    "rooms": 54.0,
+    "floor": 7,
+    "property_type": "יפה נוף 126",
+    "street": "מרכז הכרמל",
+    "neighborhood": "חיפה",
+    "image_url": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:10:41.038070"
+  }
+]

@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react'
 // import haifaData from '@/data/search_data/haifa_properties.json'
-import haifaData from '@/app/data/search_data/haifa_properties.json'
+// import haifaData from '@/app/data/search_data/haifa_properties.json'
+import tzurHadassahData from '@/data/search_data/yad2/tzur_hadassah_properties.json'
 import PropertyList from '@/components/lists/PropertyList'
 import Pagination from '@/components/ui/Pagination'
 
@@ -22,7 +23,8 @@ export default function SearchExplore({ url }: { url: string }) {
   const itemsPerPage = 9
 
   // Transform the data to match PropertyList's expected format
-  const properties = haifaData.map((property: Property, index: number) => ({
+  // const properties = haifaData.map((property: Property, index: number) => ({
+  const properties = tzurHadassahData.map((property: Property, index: number) => ({
     id: index.toString(),
     title: property.title,
     price: property.price,

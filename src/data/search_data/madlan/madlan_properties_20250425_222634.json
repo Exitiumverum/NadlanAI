@@ -1,0 +1,425 @@
+[
+  {
+    "price": 1250000,
+    "rooms": 35.0,
+    "size": 87,
+    "address": "דירה, דרך יד לבנים 178, תל עמל",
+    "image_urls": [
+      "https://images2.madlan.co.il/t:nonce:v=2;resize:height=328/bulletins/סלון-26e54f9b-0ca9-4935-bad1-6d501d83c349.jpg"
+    ],
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:26.947158"
+  },
+  {
+    "price": 1700000,
+    "rooms": 4.0,
+    "size": 100,
+    "address": "דירה, סלומון יעקב 30, נוה שאנן",
+    "image_urls": [
+      "https://images2.madlan.co.il/t:nonce:v=2;resize:height=328/bulletins/1000815908-1ab41e7e-5d1a-4c08-9d1a-6cbe7a6ba46b.jpg"
+    ],
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.065014"
+  },
+  {
+    "rooms": 54.0,
+    "address": " המבואות הדרומיים, חיפה",
+    "image_urls": [
+      "https://images2.madlan.co.il/t:nonce:v=2/projects/שבירו_חיפה/C_63_02-ad19ce77-a7dd-414e-b9da-38a98aa92298.jpg"
+    ],
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.114343"
+  },
+  {
+    "address": "שלמה המלך 10, נווה דוד, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.143803"
+  },
+  {
+    "price": 2850000,
+    "rooms": 65.0,
+    "size": 160,
+    "address": "דירה, נורית , ורדיה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.204484"
+  },
+  {
+    "price": 4700000,
+    "rooms": 8.0,
+    "size": 256,
+    "address": "דו משפחתי, דניה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.284048"
+  },
+  {
+    "price": 1300000,
+    "rooms": 3.0,
+    "size": 70,
+    "address": "דירה, סעדיה גאון 14, קרית שפרינצק, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.348606"
+  },
+  {
+    "price": 5400000,
+    "rooms": 6.0,
+    "size": 270,
+    "address": "דירה, נעמי 9, כרמליה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.389619"
+  },
+  {
+    "rooms": 5.0,
+    "address": "יהודה עמיחי 4, רמת עופר, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.417178"
+  },
+  {
+    "rooms": 54.0,
+    "address": "ויתקין יוסף 16, אחוזה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.448400"
+  },
+  {
+    "price": 2600000,
+    "rooms": 6.0,
+    "size": 145,
+    "address": "דירה, הגליל , נוה שאנן",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.498426"
+  },
+  {
+    "price": 1850000,
+    "rooms": 3.0,
+    "size": 86,
+    "address": "דירת גן, חביבה רייך , רמות רמז",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.545958"
+  },
+  {
+    "price": 1090000,
+    "rooms": 3.0,
+    "size": 71,
+    "address": "דירה, בן יהודה 28, הדר הכרמל, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.598795"
+  },
+  {
+    "price": 2950000,
+    "rooms": 3.0,
+    "size": 250,
+    "address": "בית פרטי, אל פראבי 6, ואדי ניסנאס",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.683513"
+  },
+  {
+    "rooms": 54.0,
+    "address": "דישראלי 5, אחוזה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.749714"
+  },
+  {
+    "rooms": 63.0,
+    "address": "אלמוג 18, רמת הנשיא, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.796230"
+  },
+  {
+    "price": 5000000,
+    "rooms": 4.0,
+    "size": 128,
+    "address": "פנטהאוז, דישראלי , אחוזה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.838806"
+  },
+  {
+    "price": 3500000,
+    "rooms": 55.0,
+    "size": 139,
+    "address": "דירת גן, דיישראלי , אחוזה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:27.981860"
+  },
+  {
+    "price": 1270000,
+    "rooms": 3.0,
+    "size": 70,
+    "address": "דירה, סילבר אבא הלל 111, יזרעאליה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.033003"
+  },
+  {
+    "price": 2390000,
+    "rooms": 3.0,
+    "size": 83,
+    "address": "דירת גן, ברל כצנלסון 70, נוה שאנן",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.134184"
+  },
+  {
+    "rooms": 54.0,
+    "address": "שדרות מוריה 72, שמבור, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.178197"
+  },
+  {
+    "rooms": 65.0,
+    "address": "ווטסון ליונל 11, רמת בגין, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.223084"
+  },
+  {
+    "price": 3500000,
+    "rooms": 5.0,
+    "size": 121,
+    "address": "דירה, דישראלי , אחוזה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.267386"
+  },
+  {
+    "price": 2300000,
+    "rooms": 4.0,
+    "size": 107,
+    "address": "דירה, אלמוג 18, רמת הנשיא",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.305549"
+  },
+  {
+    "price": 2499000,
+    "rooms": 5.0,
+    "size": 148,
+    "address": "דירה, זייד אלכסנדר 29, קרית חיים מזרחית",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.346842"
+  },
+  {
+    "price": 3190000,
+    "rooms": 5.0,
+    "size": 160,
+    "address": "דירה, זוהר 12, נאות פרס, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.389049"
+  },
+  {
+    "rooms": 5.0,
+    "address": "זמנהוף 33, גבעת דאונס, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.417099"
+  },
+  {
+    "rooms": 54.0,
+    "address": "כגן רחל 4, כרמליה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.446812"
+  },
+  {
+    "price": 1790000,
+    "rooms": 3.0,
+    "size": 70,
+    "address": "דירה, קריית ספר , אחוזה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.498486"
+  },
+  {
+    "price": 1210000,
+    "rooms": 45.0,
+    "size": 100,
+    "address": "דירה, דרך יד לבנים ",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.564077"
+  },
+  {
+    "price": 2450000,
+    "rooms": 5.0,
+    "size": 137,
+    "address": "דירה, חיים הזז 3, סביוני דניה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.603414"
+  },
+  {
+    "price": 2900000,
+    "rooms": 4.0,
+    "size": 120,
+    "address": "דירת גן, שושנת הכרמל 40, כרמל מערבי",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.653226"
+  },
+  {
+    "rooms": 4.0,
+    "address": "סמולנסקין 6, אחוזה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.690342"
+  },
+  {
+    "rooms": 53.0,
+    "address": "יותם 42, אחוזה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.718054"
+  },
+  {
+    "price": 2399000,
+    "rooms": 5.0,
+    "size": 113,
+    "address": "דירה, האסיף , אחוזה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.763637"
+  },
+  {
+    "price": 850000,
+    "rooms": 3.0,
+    "size": 60,
+    "address": "דירה, ואדי ניסנאס",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.804835"
+  },
+  {
+    "price": 1150000,
+    "rooms": 25.0,
+    "size": 69,
+    "address": "דירה, מסדה 35, הדר עליון, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.846339"
+  },
+  {
+    "price": 2600000,
+    "rooms": 4.0,
+    "size": 150,
+    "address": "פנטהאוז, פרויד 8, רמת אשכול",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.889111"
+  },
+  {
+    "rooms": 43.0,
+    "address": "דרך אריאל שרון 17, בת גלים, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.921280"
+  },
+  {
+    "rooms": 63.0,
+    "address": "יותם 35, שמבור, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.950279"
+  },
+  {
+    "price": 2680000,
+    "rooms": 65.0,
+    "size": 160,
+    "address": "דופלקס, גורדון , רמות רמז",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:28.981766"
+  },
+  {
+    "price": 2550000,
+    "rooms": 55.0,
+    "size": 195,
+    "address": "דירה, קרן היסוד 13, רוממה הישנה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.076079"
+  },
+  {
+    "price": 1950000,
+    "rooms": 4.0,
+    "size": 98,
+    "address": "דירה, יאנוש קורצ'אק 2, גבעת דאונס",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.124491"
+  },
+  {
+    "price": 2950000,
+    "rooms": 5.0,
+    "size": 142,
+    "address": "דירה, אלמוג 13, רמת הנשיא, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.184838"
+  },
+  {
+    "rooms": 53.0,
+    "address": "הרופא 45, אחוזה, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.233620"
+  },
+  {
+    "rooms": 54.0,
+    "address": "יפה נוף 126, מרכז הכרמל, חיפה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.274297"
+  },
+  {
+    "price": 1050000,
+    "rooms": 25.0,
+    "size": 75,
+    "address": "דירה, מסדה 35, הדר עליון",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.324490"
+  },
+  {
+    "price": 995000,
+    "rooms": 3.0,
+    "size": 70,
+    "address": "דירה, יזרעאליה",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.398587"
+  },
+  {
+    "price": 2400000,
+    "rooms": 45.0,
+    "size": 130,
+    "address": "דירת גן, הגדוד העברי 65, קרית חיים מזרחית",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.440595"
+  },
+  {
+    "price": 1480000,
+    "rooms": 35.0,
+    "size": 84,
+    "address": "דירה, יעקב קליבנוב 37",
+    "image_urls": null,
+    "city": "חיפה",
+    "scraped_at": "2025-04-25T22:26:29.483098"
+  }
+]
